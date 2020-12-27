@@ -1,0 +1,4 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "python.pythonPath": "c:\\ESD_2\\web\\venv\\Scripts\\python.exe"
+}
