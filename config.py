@@ -13,10 +13,10 @@ class BaseConfig:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     CONFERENCE_ID = 1
     SECRET_KEY = 'LWd2tzlprdGHCIPHTd4tp5SBFgDszm'
-    SERVICE_BUS_CONNECTION_STRING ='Endpoint=sb://servicebus-rp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=MksPQBREtHaVtmapjvaiUyO8xwoUDh7gxaPHk08PVEc=' #TODO: Update value
+    SERVICE_BUS_CONNECTION_STRING = 'Endpoint=sb://servicebus-rp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=MksPQBREtHaVtmapjvaiUyO8xwoUDh7gxaPHk08PVEc='
     SERVICE_BUS_QUEUE_NAME ='notificationqueue'
-    ADMIN_EMAIL_ADDRESS: 'info@techconf.com'
-    SENDGRID_API_KEY = '' #Configuration not required, required SendGrid Account
+    ADMIN_EMAIL_ADDRESS = 'rolandprz@gmx.de'
+    SENDGRID_API_KEY = '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' #Configuration not required, required SendGrid Account
 
 class DevelopmentConfig(BaseConfig):
     DEBUG = True
